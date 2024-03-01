@@ -58,8 +58,9 @@ body, p, h1, h2, h3, h4, h5 {
    /* max-width: 1200px; */
    max-width: 1920px;
    margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
+   /* padding-left: 15px;
+   padding-right: 15px; */
+   position: relative;
 }
 
 /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */
@@ -87,7 +88,7 @@ body, p, h1, h2, h3, h4, h5 {
 
 /* ---Tablet Library Grid Styles--- */
 
-@media screen and (min-width: 768px) { 
+@media screen and (max-width: 768px) { 
    
    .grid-con { 
       display: grid; 

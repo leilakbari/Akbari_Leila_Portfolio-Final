@@ -29,10 +29,9 @@
     // project scroll
 
     document.addEventListener("DOMContentLoaded", function () {
-        const textHeroElement = document.querySelector(".text-about");
+        const textHeroElement = document.querySelector("#text-about .titleBox");
         const h1Text = "Welcome!";
         const h2Text = "Here you can read more about me:";
-        
         const pText = "I’m a UI/UX designer passionate about creating engaging, impactful product experiences. I have been immersed in the world of art and design for the past 10 years after receiving my diploma in graphic design and my bachelor’s degree in textile design. At the same time, I became very interested in being able to advance my art in the direction of the digital space, and this became the beginning for me to learn and work in the field of website design. I am also very interested in nature and sometimes I take pictures and paint for fun. If you think that I would be a great fit for your team as a UI/UX designer, let’s discuss more!";
 
         loadInfo(textHeroElement.querySelector("h1"), h1Text);
