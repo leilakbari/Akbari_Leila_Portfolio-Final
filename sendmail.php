@@ -1,6 +1,6 @@
 <?php
 
-require_once('connect.php');
+require_once('../includes/connect.php');
 
 
 ///gather the form content
